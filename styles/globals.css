@@ -1,0 +1,105 @@
+:root {
+  --primary: #0c99c4;
+}
+
+.DARK {
+  --primary: rgb(130, 25, 139);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+body > div {
+  min-height: 100vh;
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* https://medium.com/hash-js/implemente-uma-vers%C3%A3o-de-alto-contraste-no-seu-site-dcef330a09fd */
+
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast article {
+  background: black !important;
+  color: white !important;
+}
+
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+  color: white !important;
+  border: none !important;
+}
+
+.contrast a {
+  color: yellow !important;
+}
+
+.contrast button,
+.contrast svg,
+.contrast input[type='button'],
+.contrast input[type='reset'],
+.contrast input[type='submit'] {
+  background: black !important;
+  color: yellow !important;
+  border: none !important;
+}
+
+.contrast img.on-contrast-force-gray {
+  filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+  filter: brightness(0) invert(1);
+}
+
+.contrast input[type='text'],
+.contrast input[type='password'],
+.contrast input[type='url'],
+.contrast input[type='search'],
+.contrast input[type='email'],
+.contrast input[type='tel'],
+.contrast input[type='date'],
+.contrast input[type='month'],
+.contrast input[type='week'],
+.contrast input[type='datetime'],
+.contrast input[type='datetime-local'],
+.contrast textarea,
+.contrast input[type='number'] {
+  background: black !important;
+  color: white !important;
+  border: none !important;
+}

@@ -1,0 +1,47 @@
+.option {
+  margin: 0;
+  position: relative;
+  display: block;
+  margin: 0 0.5rem;
+}
+
+.option__selected {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.option__selected svg,
+.option__selected img {
+  display: block;
+  width: 1.563rem;
+  height: 0.938rem;
+}
+
+.option_list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+.option_list__item {
+}
+
+.option_list__item button {
+  padding: 0.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.option_list__item button svg,
+.option_list__item button img {
+  display: block;
+  width: 1.563rem;
+  height: 0.938rem;
+}

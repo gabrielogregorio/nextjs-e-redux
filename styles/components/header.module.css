@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  -webkit-box-shadow: -1px 2px 15px -3px #00000022;
+  box-shadow: -1px 2px 15px -3px #00000022;
+  width: 100%;
+}
+
+.header__logo {
+  font-size: 2rem;
+  flex: 1;
+}
+
+.header__button {
+  margin: 0;
+  background-color: white;
+}
+
+.header__button button {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background: transparent;
+  cursor: pointer;
+  margin: 0;
+}
+
+.header__button button svg {
+  display: block;
+  width: 1.563rem;
+  height: 0.938rem;
+}
